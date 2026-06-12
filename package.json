@@ -1,0 +1,31 @@
+{
+  "name": "codingcamp--11-june-2026---yudhapradipta-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:unit": "jest tests/unit"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "testMatch": ["**/tests/**/*.test.js"]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dhaa66/CodingCamp--11-june-2026---YudhaPradipta-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dhaa66/CodingCamp--11-june-2026---YudhaPradipta-/issues"
+  },
+  "homepage": "https://github.com/Dhaa66/CodingCamp--11-june-2026---YudhaPradipta-#readme",
+  "devDependencies": {
+    "fast-check": "^4.8.0",
+    "jest": "^30.4.2",
+    "jest-canvas-mock": "^2.5.2",
+    "jest-environment-jsdom": "^30.4.1"
+  }
+}
